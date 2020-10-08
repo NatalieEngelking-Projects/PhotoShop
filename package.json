@@ -1,0 +1,19 @@
+{
+  "name": "photoshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatalieEngelking-Projects/PhotoShop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatalieEngelking-Projects/PhotoShop/issues"
+  },
+  "homepage": "https://github.com/NatalieEngelking-Projects/PhotoShop#readme"
+}
