@@ -1,0 +1,21 @@
+/* title/heading section (includes navbar) */
+.heading {
+  background-color: grey;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+  padding: 2%;
+  color: tan;
+}
+
+
+/* navbar */
+.navbar {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 27px;
+  color: tan;
+}
+
