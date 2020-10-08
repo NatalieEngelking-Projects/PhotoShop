@@ -1,12 +1,11 @@
 const express = require('express');
 const app = express();
-const { token, location } = require('../config.js');
 const cors = require ('cors')
 const bodyParser = require('body-parser');
-const request = require('request-promise')
-const db = require('../db/db.js');
+// const request = require('request-promise')
+// const db = require('../db/db.js');
 // const { filter } = require('bluebird');
-const port = 3004;
+const port = 3003;
 
 app.use(express.static(__dirname + '/../client/dist'));
 
