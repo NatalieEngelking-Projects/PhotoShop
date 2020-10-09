@@ -19,3 +19,44 @@
   color: tan;
 }
 
+.home:hover {
+  text-decoration: underline;
+}
+.about:hover {
+  text-decoration: underline;
+}
+.gallery:hover {
+  text-decoration: underline;
+}
+.contact:hover {
+  text-decoration: underline;
+}
+
+
+/* homepage */
+.homePage {
+  background-color: tan;
+  color: grey;
+  text-align: center;
+}
+
+/* aboutpage */
+.aboutPage {
+  background-color: tan;
+  color: grey;
+  text-align: center;
+}
+
+/* contactpage */
+.contactPage {
+  background-color: tan;
+  color: grey;
+  text-align: center;
+}
+
+/* gallerypage */
+.galleryPage {
+  background-color: tan;
+  color: grey;
+  text-align: center;
+}

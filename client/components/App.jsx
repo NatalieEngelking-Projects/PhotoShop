@@ -7,10 +7,6 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      home: false,
-      about: false,
-      contact: false,
-      gallery: false,
       images: []
     }
   }
@@ -22,10 +18,10 @@ class App extends React.Component {
   render () {
     return (
       <div className='heading'>
-        <div className='title' >PhotoShop</div>
+        <div className='title' > The Photo Shop</div>
 
         {/* navbar */}
-        <Navbar />
+        <Navbar home={this.state.home} about={this.state.about} contact={this.state.contact} gallery={this.state.gallery} images={this.state.images}/>
 
       </div>
 
@@ -34,3 +30,8 @@ class App extends React.Component {
 }
 
 export default App;
+
+
+//set up ways for people to favorite an image
+//have a message componet for just admin
+//user profiles
